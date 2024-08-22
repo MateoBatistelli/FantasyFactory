@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #C7115F ;
+    color: #333333
+}
+
+.navbar-logo {
+    display: inline-flex;
+}
+
+.carrito-compras {
+    padding-right: 20px;
+}
+
+.dropdown {
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.dropdown-toggle {
+    font-size: x-large; 
+}
+
+.dropdown-menu {
+    background-color: #333333;
+    color: #FFF8E7;
+}
+
+.dropdown-item {
+    color: #FFF8E7;
+}
+
+.dropdown-item:hover {
+    background-color: #EF9AA8;
+}

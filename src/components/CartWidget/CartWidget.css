@@ -1,0 +1,18 @@
+.carrito {
+    position: relative;
+    display: inline-block;
+}
+
+.circulo-notificacion {
+    background-color: #6befd7;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -6px;
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
