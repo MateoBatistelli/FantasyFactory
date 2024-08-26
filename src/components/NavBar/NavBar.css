@@ -1,6 +1,6 @@
 .navbar {
     background-color: #C7115F ;
-    color: #333333
+    color: #FFF8E7
 }
 
 .navbar-logo {
@@ -18,10 +18,11 @@
 
 .dropdown-toggle {
     font-size: x-large; 
+    color: #FFF8E7;
 }
 
 .dropdown-menu {
-    background-color: #333333;
+    background-color: #EF9AA8;
     color: #FFF8E7;
 }
 
@@ -30,5 +31,5 @@
 }
 
 .dropdown-item:hover {
-    background-color: #EF9AA8;
+    background-color: #f1c5cc;
 }
