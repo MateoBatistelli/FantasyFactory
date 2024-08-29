@@ -1,13 +1,18 @@
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
     background-color: #C7115F ;
-    color: #FFF8E7
+    color: #FFF8E7;
 }
 
-.navbar-logo {
-    display: inline-flex;
+.navbarLogo {
+    display: flex;
 }
 
-.carrito-compras {
+.carritoCompras {
     padding-right: 20px;
 }
 
@@ -16,20 +21,20 @@
     padding-left: 20px;
 }
 
-.dropdown-toggle {
+.navbar .dropdownToggle {
     font-size: x-large; 
     color: #FFF8E7;
 }
 
-.dropdown-menu {
+.navbar .dropdownMenu {
     background-color: #EF9AA8;
     color: #FFF8E7;
 }
 
-.dropdown-item {
+.navbar .dropdownItem {
     color: #FFF8E7;
 }
 
-.dropdown-item:hover {
+.navbar .dropdownItem:hover {
     background-color: #f1c5cc;
 }
