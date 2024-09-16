@@ -1,0 +1,21 @@
+.itemCount{
+    display: inline-flex;
+    background-color: #FFF8E7;
+    align-items: center;
+    gap: 5px;
+}
+
+.cantidadComprar {
+    margin: 5px;
+}
+
+.stockDisponible {
+    margin: 5px;
+    font-size: 0.9rem; 
+    white-space: nowrap;
+}
+
+.button{
+    background-color: #C7115F !important;
+    border-color: #C7115F !important;
+}

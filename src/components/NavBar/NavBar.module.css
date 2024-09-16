@@ -10,10 +10,12 @@
 
 .navbarLogo {
     display: flex;
+    color: #FFF8E7;
+    text-decoration: none;
 }
 
 .carritoCompras {
-    padding-right: 20px;
+    padding-right: 20px; 
 }
 
 .dropdown {
@@ -23,7 +25,18 @@
 
 .navbar .dropdownToggle {
     font-size: x-large; 
+    
+    /* Los important son necesarios porque si no, cuando se deselecciona el dropdownToggle vuelve al color azul por default del control de Bootstrap*/
+    color: #FFF8E7 !important;
+    background-color: #C7115F !important;
+    border-color: #C7115F !important;
+}
+
+.navbar .dropdownToggle:focus{
+    font-size: x-large; 
     color: #FFF8E7;
+    background-color: #C7115F;
+    border-color: #C7115F;
 }
 
 .navbar .dropdownMenu {
@@ -37,4 +50,33 @@
 
 .navbar .dropdownItem:hover {
     background-color: #f1c5cc;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+
+        display: grid;
+        text-align: left;
+    }
+
+    .navbarLogo {
+        margin-bottom: 10px;
+    }
+    
+    .navbarLogo .navbarLogoTexto{
+        align-content: center;
+    }
+
+    .dropdown {
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .carritoCompras {
+        padding: 5px 10px;
+    }
 }

@@ -1,0 +1,20 @@
+.card {
+    width: 600px; 
+    border: none !important;
+}
+
+.card .cardImg {
+    height: 600px;
+}
+
+.card .cardBody {
+    text-align: left;
+    background-color: #FFF8E7;
+}
+
+@media (max-width: 768px) {
+    .card .cardImg {
+        height: auto;
+        max-height: 350px;
+    }
+}
