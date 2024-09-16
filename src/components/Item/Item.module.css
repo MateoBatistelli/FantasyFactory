@@ -2,8 +2,7 @@
     text-decoration: none;
 }
 .card {
-    width: 300px; 
-    border: none !important;
+    width: 400px;
 }
 
 .card .cardImg {
@@ -14,5 +13,6 @@
 
 .card .cardBody {
     text-align: left;
+    font-size: 1.1rem;
 }
 
