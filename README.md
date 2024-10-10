@@ -15,8 +15,8 @@ Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 Para clonar e iniciar el proyecto localmente, sigue estos pasos:
 
 1. Clonar el repositorio:
-   ```bash```
-   ```git clone https://github.com/usuario/fantasy-factory.git```
+   `bash`
+   `git clone https://github.com/usuario/fantasy-factory.git`
 
 2. Instalar dependencias:
     ```npm install```
