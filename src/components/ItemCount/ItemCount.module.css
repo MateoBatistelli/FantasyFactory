@@ -1,21 +1,54 @@
-.itemCount{
-    display: inline-flex;
+.itemCount {
+    display: flex;
+    flex-direction: column;
     background-color: #FFF8E7;
+    padding: 15px;
+    gap: 10px;
+}
+
+.cantidadContainer {
+    display: flex; 
     align-items: center;
     gap: 5px;
 }
 
 .cantidadComprar {
-    margin: 5px;
+    margin: 0; 
+    min-width: 30px; 
 }
 
 .stockDisponible {
-    margin: 5px;
+    margin: 0; 
     font-size: 0.9rem; 
-    white-space: nowrap;
+    color: #4B4B4B; 
 }
 
-.button{
-    background-color: #C7115F !important;
+.buttonContainer {
+    display: flex; 
+}
+
+.button {
+    background-color: #6BEFD7 !important;
+    border-color: #6BEFD7 !important;
+    color: #333333 !important;
+}
+
+.button:hover {
+    background-color: #25a38c !important; 
+    border-color: #25a38c !important;
+}
+
+.agregarButton {
+    background-color: #C7115F !important; 
     border-color: #C7115F !important;
+}
+
+.agregarButton:hover {
+    background-color: #9e0f4d !important; 
+    border-color: #9e0f4d !important; 
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: center !important;
 }

@@ -1,0 +1,51 @@
+.card {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    
+    max-width: 1000px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productoInfo{
+    display: flex;
+    align-items: left;
+
+    text-decoration: none;
+}
+
+.cardImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cardBody {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: left;
+
+    color: #333333;
+}
+
+.cardBody h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cardBody p {
+    margin: 5px 0;
+    color: #4B4B4B;
+}
+
+.btnEliminar {
+    cursor: pointer;
+    margin-left: 10px;
+}

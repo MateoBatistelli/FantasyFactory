@@ -1,0 +1,48 @@
+.carrito{
+    padding-top: 50px;
+}
+
+.grupoBotones{
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+
+.button {
+    background-color: #C7115F !important;
+    border-color: #C7115F !important;
+}
+
+
+.buttonEliminar {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.button:hover {
+    background-color: #9e0f4d !important;
+    border-color: #9e0f4d !important;
+}
+
+.buttonEliminar:hover {
+    background-color: #c82333 !important;
+    border-color: #c82333 !important;
+}
+
+.emptyCart {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttonVolver {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #C7115F;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonVolver:hover {
+    background-color: #9e0f4d;
+}

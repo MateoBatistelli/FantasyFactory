@@ -1,6 +1,8 @@
 .card {
     width: 600px; 
     border: none !important;
+    display: flex;
+    flex-direction: row !important;
 }
 
 .card .cardImg {
@@ -10,6 +12,13 @@
 .card .cardBody {
     text-align: left;
     background-color: #FFF8E7;
+    min-width: 600px;
+}
+
+.cardPrice {
+    font-size: 1.2rem;
+    color: #C7115F; 
+    font-weight: bold; 
 }
 
 @media (max-width: 768px) {

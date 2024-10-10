@@ -52,6 +52,10 @@
     background-color: #f1c5cc;
 }
 
+.active {
+    background-color: #9e0f4d !important;
+}
+
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
     .navbar {

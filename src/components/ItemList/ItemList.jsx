@@ -1,5 +1,5 @@
 import styles from './ItemList.module.css'
-import Card from 'react-bootstrap/Card';
+
 import Item from '../Item/Item';
 
 export default function ItemList ( { productos }){

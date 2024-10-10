@@ -1,31 +1,34 @@
 import styles from './ItemDetailContainer.module.css'
+
 import ItemDetail from '../ItemDetail/ItemDetail';
-import { GetProducts } from '../../data/GetProducts.js';
+
+import { getDocumento } from '../../firebase/db.js';
+
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { OrbitProgress } from 'react-loading-indicators';
 
 export default function ItemDetailContainer (){
     const [ loading, setLoading] = useState(true)
     const [ producto, setProducto] = useState()
     const { id } = useParams()
 
+    const getDatos = async () => {
+        setLoading(true);
+
+        const producto = await getDocumento(id, "productos");
+        setProducto(producto);
+
+        setLoading(false); 
+    };
+
     useEffect(() => {
-        GetProducts()
-            .then((productosJSON) => {
-                const productosArray = productosJSON.productos;
-                if(id != undefined)
-                {
-                    const productoFiltradoID = productosArray.filter(productos => productos.id == id);
-                    setProducto(productoFiltradoID[0]);
-                } 
-                setLoading(false)
-            })
-            .catch(err => console.error(err));
+        getDatos();
     }, [id]) 
     
     if (loading){
         return(
-            <h4>Cargando . . .</h4>
+            <OrbitProgress color="#525252" size="medium" text="" textColor="" />
         )
     }
     else
