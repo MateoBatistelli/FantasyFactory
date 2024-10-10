@@ -1,6 +1,6 @@
 # Fantasy Factory
 
-Fantasy Factory es un e-commerce C2C especializado en el mundo del cosplay y accesorios temáticos. Nuestra plataforma está diseñada para conectar a los fanáticos del cosplay, facilitando la compra y venta de productos relacionados con esta comunidad.
+Fantasy Factory es un e-commerce C2C especializado en el mundo del cosplay y accesorios temáticos.
 
 ## Tecnologías Utilizadas
 
